@@ -23,9 +23,38 @@ namespace CalculadoraQuebradaWindowsForm.Validacoes
 
         private static bool ValidarCaracterDeEntrada(string caracter)
         {
-            if(caracter.Equals(Operacao.SOMA))
+            throw new NotImplementedException();
+        }
+
+        private static bool ValidarCaracterAdicao(string caracter)
+        {
+            if(caracter.Equals(OperacaoSoma.SOMA))
                 return true;
                 
+            return false;
+        }
+
+        private static bool ValidarCaracterSubtracao(string caracter)
+        {
+            if (caracter.Equals(OperacaoSubtracao.DIMUNUI))
+                return true;
+
+            return false;
+        }
+
+        private static bool ValidarCaracterMultiplicacao(string caracter)
+        {
+            if (caracter.Equals(OperacaoMultiplicacao.MULTIPLICA))
+                return true;
+
+            return false;
+        }
+
+        private static bool ValidarCaracterDivisao(string caracter)
+        {
+            if (caracter.Equals(OperacaoDivisao.DIVIDE))
+                return true;
+
             return false;
         }
     }

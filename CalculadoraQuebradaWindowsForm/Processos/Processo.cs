@@ -13,12 +13,29 @@ namespace CalculadoraQuebradaWindowsForm.Processos
         {
             var valor = Convert.ToDouble(caracter);
 
-            if(operacao.Equals(Operacao.SOMA))
+            if(operacao.Equals(OperacaoSoma.SOMA))
             {
                 resultado.Soma(valor);
                 campo += caracter;
             }
-            
+
+            if (operacao.Equals(OperacaoSubtracao.DIMUNUI))
+            {
+                resultado.Soma(valor);
+                campo += caracter;
+            }
+
+            if (operacao.Equals(OperacaoMultiplicacao.MULTIPLICA))
+            {
+                resultado.Soma(valor);
+                campo += caracter;
+            }
+
+            if (operacao.Equals(OperacaoDivisao.DIVIDE))
+            {
+                resultado.Soma(valor);
+                campo += caracter;
+            }
         }
     }
 }
