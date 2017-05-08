@@ -26,5 +26,5 @@ namespace CalculadoraQuebradaWindowsForm.Operacoes
         public static readonly string DIVIDE = "/";
     }
 
-    //apenas testando
+    
 }

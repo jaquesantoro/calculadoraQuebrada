@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\TelaForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\TelaForm1.Designer.cs">
+      <DependentUpon>TelaForm1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Processos\Processo.cs" />
     <Compile Include="Formularios\CalculadoraForm.cs">
       <SubType>Form</SubType>
@@ -59,6 +65,9 @@
     <Compile Include="Validacoes\ValidacaoMatematica.cs" />
     <EmbeddedResource Include="Formularios\CalculadoraForm.resx">
       <DependentUpon>CalculadoraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\TelaForm1.resx">
+      <DependentUpon>TelaForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
