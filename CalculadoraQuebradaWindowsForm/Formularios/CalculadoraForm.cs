@@ -134,7 +134,7 @@ namespace Formularios.CalculadoraQuebradaWindowsForm
                 txtValor.Text = Convert.ToString(a / Convert.ToDouble(txtValor.Text));
             }
         }
-
+        yjhfvku
        
     }
 }
