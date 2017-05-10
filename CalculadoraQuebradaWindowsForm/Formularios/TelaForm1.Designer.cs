@@ -60,6 +60,7 @@
             this.btn_limpar.Text = "C";
             this.btn_limpar.UseVisualStyleBackColor = false;
             this.btn_limpar.UseWaitCursor = true;
+            this.btn_limpar.Click += new System.EventHandler(this.btn_limpar_Click);
             // 
             // btn_igual
             // 
@@ -81,6 +82,7 @@
             this.btn_adicao.TabIndex = 21;
             this.btn_adicao.Text = "+";
             this.btn_adicao.UseVisualStyleBackColor = true;
+            this.btn_adicao.Click += new System.EventHandler(this.btn_adicao_Click);
             // 
             // btn_multiplicacao
             // 
@@ -91,6 +93,7 @@
             this.btn_multiplicacao.TabIndex = 22;
             this.btn_multiplicacao.Text = "*";
             this.btn_multiplicacao.UseVisualStyleBackColor = true;
+            this.btn_multiplicacao.Click += new System.EventHandler(this.btn_multiplicacao_Click);
             // 
             // btn2
             // 
@@ -101,6 +104,7 @@
             this.btn2.TabIndex = 23;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btnNumerador_Click);
             // 
             // btn3
             // 

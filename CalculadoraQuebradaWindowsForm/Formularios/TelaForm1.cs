@@ -23,8 +23,8 @@ namespace Formularios.CalculadoraQuebradaWindowsForm
 
         private void btnNumerador_Click(object sender, EventArgs e)
         {
-            Button bt = (Button)sender;
-            txtValor.Text = txtValor.Text + bt.Text;
+            Button btn = (Button)sender;
+            txtValor.Text = txtValor.Text + btn.Text;
         }
 
         private void btn_limpar_Click(object sender, EventArgs e)
@@ -86,8 +86,5 @@ namespace Formularios.CalculadoraQuebradaWindowsForm
                 txtValor.Text = Convert.ToString(a * Convert.ToDouble(txtValor.Text));
             }
         }
-
-        
-
     }
 }
