@@ -77,7 +77,7 @@
             this.btn3.Location = new System.Drawing.Point(131, 70);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(58, 56);
-            this.btn3.TabIndex = 2;
+            this.btn3.TabIndex = 24;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
             this.btn3.Click += new System.EventHandler(this.btnNumerador_Click);
@@ -239,7 +239,7 @@
             // txtValor
             // 
             this.txtValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtValor.Location = new System.Drawing.Point(4, 11);
+            this.txtValor.Location = new System.Drawing.Point(4, 12);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(313, 41);
             this.txtValor.TabIndex = 17;
@@ -255,7 +255,7 @@
             this.label1.Size = new System.Drawing.Size(0, 26);
             this.label1.TabIndex = 18;
             // 
-            // Form1
+            // CalculadoraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -281,11 +281,10 @@
             this.Controls.Add(this.btn1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "CalculadoraForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
