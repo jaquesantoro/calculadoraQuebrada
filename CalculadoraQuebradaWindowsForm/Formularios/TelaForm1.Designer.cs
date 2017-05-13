@@ -1,6 +1,6 @@
 ﻿namespace Formularios.CalculadoraQuebradaWindowsForm
 {
-    partial class TelaForm1
+    partial class Nivel_1_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -128,7 +128,7 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "\r\n";
             // 
-            // TelaForm1
+            // Nivel_1_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -143,9 +143,9 @@
             this.Controls.Add(this.btn_igual);
             this.Controls.Add(this.btn_limpar);
             this.Controls.Add(this.txtValor);
-            this.Name = "TelaForm1";
+            this.Name = "Nivel_1_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nível1Form";
+            this.Text = "Nível1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -17,7 +17,7 @@ namespace CalculadoraQuebradaWindowsForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaForm1());
+            Application.Run(new Nivel_1_Form());
         }
     }
 }

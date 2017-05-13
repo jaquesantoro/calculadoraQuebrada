@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace Formularios.CalculadoraQuebradaWindowsForm
 {
-    public partial class TelaForm1 : Form
+    public partial class Nivel_1_Form : Form
     {
         string operador;
         double a = 0;
         bool validar = false;
 
-        public TelaForm1()
+        public Nivel_1_Form()
         {
             InitializeComponent();
         } 
