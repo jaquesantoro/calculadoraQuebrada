@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Formularios.CalculadoraQuebradaWindowsForm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,43 +9,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CalculadoraQuebradaWindowsForm.Formularios
+namespace Formulários.CalculadoraQuebradaWindowsForm
 {
     public partial class PrincipalForm : Form
     {
-        private static Form _fromularioAtual;
         public PrincipalForm()
         {
-            InitializeComponent();
+            
         }
 
-        private void Button_Click_Nive1Form(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (sender == null)
-                return;
+            Nivel_1_Form nivel1 = new Nivel_1_Form();
+            nivel1.ShowDialog();
 
-            OpenFormulario(new Nivel1Form());
-        }
-
-        private void Button_Click_Nive2Form(object sender, EventArgs e)
-        {
-            OpenFormulario(new Nivel1Form());
-        }
-
-        private void Button_Click_Nive3Form(object sender, EventArgs e)
-        {
-            OpenFormulario(new Nivel1Form());
-        }
-
-        private static void OpenFormulario(Form formularioNovo)
-        {
-            //formularioAntigo.Close();
-
-            if(_fromularioAtual != null)
-                _fromularioAtual.Close();
-
-            _fromularioAtual = formularioNovo;
-            _fromularioAtual.Show();
         }
     }
 }

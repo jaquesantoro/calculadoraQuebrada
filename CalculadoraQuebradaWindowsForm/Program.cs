@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using CalculadoraQuebradaWindowsForm.Formularios;
 using Formularios.CalculadoraQuebradaWindowsForm;
 
-namespace CalculadoraQuebradaWindowsForm
+namespace Formulários.CalculadoraQuebradaWindowsForm
 {
     static class Program
     {
