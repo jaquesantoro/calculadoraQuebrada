@@ -8,15 +8,43 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Formulários.CalculadoraQuebradaWindowsForm
+namespace CalculadoraQuebradaWindowsForm.Formularios
 {
     public partial class PrincipalForm : Form
     {
+        private static Form _fromularioAtual;
         public PrincipalForm()
         {
-            
+            InitializeComponent();
         }
 
-        
+        private void Button_Click_Nive1Form(object sender, EventArgs e)
+        {
+            if (sender == null)
+                return;
+
+            OpenFormulario(new Nivel1Form());
+        }
+
+        private void Button_Click_Nive2Form(object sender, EventArgs e)
+        {
+            OpenFormulario(new Nivel1Form());
+        }
+
+        private void Button_Click_Nive3Form(object sender, EventArgs e)
+        {
+            OpenFormulario(new Nivel1Form());
+        }
+
+        private static void OpenFormulario(Form formularioNovo)
+        {
+            //formularioAntigo.Close();
+
+            if(_fromularioAtual != null)
+                _fromularioAtual.Close();
+
+            _fromularioAtual = formularioNovo;
+            _fromularioAtual.Show();
+        }
     }
 }

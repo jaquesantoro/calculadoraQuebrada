@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CalculadoraQuebradaWindowsForm.Formularios;
 using Formularios.CalculadoraQuebradaWindowsForm;
 
 namespace CalculadoraQuebradaWindowsForm
@@ -17,7 +18,7 @@ namespace CalculadoraQuebradaWindowsForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Nivel_1_Form());
+            Application.Run(new PrincipalForm());
         }
     }
 }

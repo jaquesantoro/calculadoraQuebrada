@@ -51,11 +51,11 @@
     <Compile Include="Formularios\PrincipalForm.Designer.cs">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\TelaForm1.cs">
+    <Compile Include="Formularios\Nviel1Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\TelaForm1.Designer.cs">
-      <DependentUpon>TelaForm1.cs</DependentUpon>
+    <Compile Include="Formularios\Nviel1Form.Designer.cs">
+      <DependentUpon>Nviel1Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Processos\Processo.cs" />
     <Compile Include="Formularios\CalculadoraForm.cs">
@@ -75,8 +75,8 @@
     <EmbeddedResource Include="Formularios\PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\TelaForm1.resx">
-      <DependentUpon>TelaForm1.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Nviel1Form.resx">
+      <DependentUpon>Nviel1Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

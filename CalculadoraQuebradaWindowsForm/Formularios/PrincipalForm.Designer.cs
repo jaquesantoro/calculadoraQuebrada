@@ -1,4 +1,4 @@
-﻿namespace Formulários.CalculadoraQuebradaWindowsForm
+﻿namespace CalculadoraQuebradaWindowsForm.Formularios
 {
     partial class PrincipalForm
     {
@@ -41,69 +41,74 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(9, 13);
+            this.label1.Location = new System.Drawing.Point(123, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(306, 31);
-            this.label1.TabIndex = 0;
+            this.label1.Size = new System.Drawing.Size(380, 39);
+            this.label1.TabIndex = 1;
             this.label1.Text = "Calculadora Quebrada";
             // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(15, 56);
+            this.textBox1.Location = new System.Drawing.Point(113, 64);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(286, 80);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.Size = new System.Drawing.Size(402, 98);
+            this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Eric quebrou a sua \r\ncalculadora, mas ela \r\nainda pode ser útil...";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(15, 174);
+            this.button1.Location = new System.Drawing.Point(113, 179);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 40);
-            this.button1.TabIndex = 2;
+            this.button1.Size = new System.Drawing.Size(129, 49);
+            this.button1.TabIndex = 3;
             this.button1.Text = "Nível 1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button_Click_Nive1Form);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(204, 174);
+            this.button2.Location = new System.Drawing.Point(249, 179);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 40);
-            this.button2.TabIndex = 3;
+            this.button2.Size = new System.Drawing.Size(129, 49);
+            this.button2.TabIndex = 4;
             this.button2.Text = "Nível 2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button_Click_Nive2Form);
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(110, 244);
+            this.button3.Location = new System.Drawing.Point(386, 179);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(97, 40);
-            this.button3.TabIndex = 4;
+            this.button3.Size = new System.Drawing.Size(129, 49);
+            this.button3.TabIndex = 5;
             this.button3.Text = "Nível 3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.MouseCaptureChanged += new System.EventHandler(this.Button_Click_Nive3Form);
             // 
             // PrincipalForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(322, 314);
+            this.ClientSize = new System.Drawing.Size(610, 284);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "PrincipalForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Principal";
+            this.Text = "PrincipalForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

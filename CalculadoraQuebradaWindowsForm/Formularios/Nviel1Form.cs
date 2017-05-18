@@ -1,22 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Formularios.CalculadoraQuebradaWindowsForm
+namespace CalculadoraQuebradaWindowsForm.Formularios
 {
-    public partial class Nivel_1_Form : Form
+    public partial class Nivel1Form : Form
     {
         string operador;
         double a = 0;
         bool validar = false;
 
-        public Nivel_1_Form()
+        public Nivel1Form()
         {
             InitializeComponent();
         } 

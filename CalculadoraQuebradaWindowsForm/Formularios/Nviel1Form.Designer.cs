@@ -1,6 +1,6 @@
-﻿namespace Formularios.CalculadoraQuebradaWindowsForm
+﻿namespace CalculadoraQuebradaWindowsForm.Formularios
 {
-    partial class Nivel_1_Form
+    partial class Nivel1Form
     {
         /// <summary>
         /// Required designer variable.
