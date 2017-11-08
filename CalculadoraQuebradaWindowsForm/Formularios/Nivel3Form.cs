@@ -14,6 +14,12 @@ namespace CalculadoraQuebradaWindowsForm.Formularios
             InitializeComponent();
         }
 
+        private void btnNumerador_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            txtValor.Text = txtValor.Text + btn.Text;
+        }
+
         private void btn_limpar_Click(object sender, EventArgs e)
         {
             txtValor.Text = "";

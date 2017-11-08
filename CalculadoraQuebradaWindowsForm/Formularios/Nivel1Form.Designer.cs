@@ -42,10 +42,9 @@
             // 
             this.txtValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValor.Location = new System.Drawing.Point(5, 12);
-            this.txtValor.Multiline = true;
             this.txtValor.Name = "txtValor";
             this.txtValor.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtValor.Size = new System.Drawing.Size(312, 20);
+            this.txtValor.Size = new System.Drawing.Size(312, 40);
             this.txtValor.TabIndex = 18;
             this.txtValor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtValor.TextChanged += new System.EventHandler(this.txtValor_TextChanged);
