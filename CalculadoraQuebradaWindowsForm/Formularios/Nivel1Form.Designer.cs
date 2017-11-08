@@ -40,22 +40,24 @@
             // 
             // txtValor
             // 
-            this.txtValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValor.Location = new System.Drawing.Point(5, 12);
+            this.txtValor.Multiline = true;
             this.txtValor.Name = "txtValor";
             this.txtValor.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtValor.Size = new System.Drawing.Size(312, 41);
+            this.txtValor.Size = new System.Drawing.Size(312, 20);
             this.txtValor.TabIndex = 18;
             this.txtValor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtValor.TextChanged += new System.EventHandler(this.txtValor_TextChanged);
             // 
             // btn_limpar
             // 
             this.btn_limpar.BackColor = System.Drawing.Color.Red;
             this.btn_limpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_limpar.ForeColor = System.Drawing.SystemColors.Window;
-            this.btn_limpar.Location = new System.Drawing.Point(242, 70);
+            this.btn_limpar.Location = new System.Drawing.Point(252, 69);
             this.btn_limpar.Name = "btn_limpar";
-            this.btn_limpar.Size = new System.Drawing.Size(75, 56);
+            this.btn_limpar.Size = new System.Drawing.Size(58, 56);
             this.btn_limpar.TabIndex = 19;
             this.btn_limpar.Text = "C";
             this.btn_limpar.UseVisualStyleBackColor = false;
@@ -65,10 +67,10 @@
             // btn_igual
             // 
             this.btn_igual.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_igual.Location = new System.Drawing.Point(242, 256);
+            this.btn_igual.Location = new System.Drawing.Point(252, 256);
             this.btn_igual.Name = "btn_igual";
-            this.btn_igual.Size = new System.Drawing.Size(75, 56);
-            this.btn_igual.TabIndex = 20;
+            this.btn_igual.Size = new System.Drawing.Size(58, 56);
+            this.btn_igual.TabIndex = 18;
             this.btn_igual.Text = "= ";
             this.btn_igual.UseVisualStyleBackColor = true;
             this.btn_igual.Click += new System.EventHandler(this.btn_igual_Click);
@@ -108,7 +110,7 @@
             // 
             // btn3
             // 
-            this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(93, 190);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(58, 56);
@@ -121,14 +123,14 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(12, 26);
+            this.label1.Size = new System.Drawing.Size(12, 25);
             this.label1.TabIndex = 18;
             this.label1.Text = "\r\n";
             // 
-            // Nivel_1_Form
+            // Nivel1Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -143,7 +145,7 @@
             this.Controls.Add(this.btn_igual);
             this.Controls.Add(this.btn_limpar);
             this.Controls.Add(this.txtValor);
-            this.Name = "Nivel_1_Form";
+            this.Name = "Nivel1Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nível1";
             this.ResumeLayout(false);

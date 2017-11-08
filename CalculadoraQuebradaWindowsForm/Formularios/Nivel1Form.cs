@@ -79,5 +79,10 @@ namespace CalculadoraQuebradaWindowsForm.Formularios
                 txtValor.Text = Convert.ToString(a * Convert.ToDouble(txtValor.Text));
             }
         }
+
+        private void txtValor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

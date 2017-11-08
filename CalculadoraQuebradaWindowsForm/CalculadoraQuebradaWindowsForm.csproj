@@ -45,17 +45,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\Nivel2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Nivel2Form.Designer.cs">
+      <DependentUpon>Nivel2Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Nivel3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Nivel3Form.Designer.cs">
+      <DependentUpon>Nivel3Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\PrincipalForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\PrincipalForm.Designer.cs">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Nviel1Form.cs">
+    <Compile Include="Formularios\Nivel1Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Nviel1Form.Designer.cs">
-      <DependentUpon>Nviel1Form.cs</DependentUpon>
+    <Compile Include="Formularios\Nivel1Form.Designer.cs">
+      <DependentUpon>Nivel1Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Processos\Processo.cs" />
     <Compile Include="Formularios\CalculadoraForm.cs">
@@ -72,11 +84,17 @@
     <EmbeddedResource Include="Formularios\CalculadoraForm.resx">
       <DependentUpon>CalculadoraForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Nivel2Form.resx">
+      <DependentUpon>Nivel2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Nivel3Form.resx">
+      <DependentUpon>Nivel3Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Nviel1Form.resx">
-      <DependentUpon>Nviel1Form.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\Nivel1Form.resx">
+      <DependentUpon>Nivel1Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

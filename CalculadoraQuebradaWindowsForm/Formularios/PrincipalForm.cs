@@ -28,12 +28,12 @@ namespace CalculadoraQuebradaWindowsForm.Formularios
 
         private void Button_Click_Nive2Form(object sender, EventArgs e)
         {
-            OpenFormulario(new Nivel1Form());
+            OpenFormulario(new Nivel2Form());
         }
 
         private void Button_Click_Nive3Form(object sender, EventArgs e)
         {
-            OpenFormulario(new Nivel1Form());
+            OpenFormulario(new Nivel3Form());
         }
 
         private static void OpenFormulario(Form formularioNovo)
